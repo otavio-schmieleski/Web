@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,18 @@
         p {
             color: red;
         }
+
+        #titulo {
+            color: blue;
+        }
+        .destaque-fundo-preto {
+            background-color: black;
+            color: white;
+        }
+        input[type="text"] {
+            border: 1px solid red;
+        }
+
     </style>
 </head>
 <body>
@@ -15,6 +27,17 @@
 
     <h4>Seletor por Tag</h4>
     <p>Resultado do seletor por Tag</p>
+
+    <h4>Seletor por Identificacao</h4>
+    <p id="titulo">Resultado do seletor por Identificacao</p>
+
+    <h4>Seletor por Classe</h4>
+    <p class="destaque-fundo-preto">Resultado do seletor por Classe</p>
+
+    <h4>Seletor por Atributo</h4>
+    <input type="text" placeholder="Campo de Texto"></p>
+    <input type="password" placeholder="Campo de Senha"></p>
+
     
 </body>
 </html>
